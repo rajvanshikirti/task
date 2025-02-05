@@ -27,7 +27,7 @@ router.post('/create', auth, async (req, res) => {
 
 
 // get user tasks
-router.get('/', auth, async (req, res) => {
+router.get('/alltasks', auth, async (req, res) => {
     try{
         const tasks = await Task.find({
             owner: req.user._id
@@ -60,15 +60,11 @@ router.get('/:id', auth , async (req,res)=>{
     }
 })
 
-// update a task by id   -   description , completed
-router.patch('/:id', auth , async (req,res)=>{
+
+router.patch('/update/:id', auth , async (req,res)=>{
     const taskid = req.params.id;
     const updates = Object.keys(req.body);
-    // {
-    //     description : "new description",
-    //     completed: true,
-    //     owner : "asfasfasfasfasf"
-    // }
+    
     const allowedUpdates = ['description', 'completed'];
     const isValidOperation = updates.every(update => allowedUpdates.includes(update));
 
@@ -99,8 +95,8 @@ router.patch('/:id', auth , async (req,res)=>{
 })
 
 
-// delete a task by id
-router.delete('/:id', auth , async (req,res)=>{
+
+router.delete('/delete/:id', auth , async (req,res)=>{
     const taskid = req.params.id;
 
     try{
