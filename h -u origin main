@@ -1,0 +1,41 @@
+[33mcommit a87bb1cfb713ac6421b34859c8cecb67042c6807[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Kirti Rajvanshi <kirtirajvanshi9@gmail.com>
+Date:   Wed Feb 5 12:19:53 2025 +0530
+
+    Initial commit
+
+[33mcommit 4d5b8c134b441877beaf51548fe66bb856e7c066[m
+Author: Kirti Rajvanshi <kirtirajvanshi9@gmail.com>
+Date:   Wed Feb 5 11:46:05 2025 +0530
+
+    crud
+
+[33mcommit 05a8a1cb06047b28aab1da1dda38f82472387f98[m
+Author: Kirti Rajvanshi <kirtirajvanshi9@gmail.com>
+Date:   Wed Feb 5 10:41:09 2025 +0530
+
+    taskroute created
+
+[33mcommit 3a104c5eb965f11744571526ec32663a2c8aa8f0[m
+Author: Kirti Rajvanshi <kirtirajvanshi9@gmail.com>
+Date:   Tue Feb 4 23:35:57 2025 +0530
+
+    login
+
+[33mcommit e9e74aadb6d5caac5489d6c5ce2de1e572368daf[m
+Author: Kirti Rajvanshi <kirtirajvanshi9@gmail.com>
+Date:   Tue Feb 4 21:04:33 2025 +0530
+
+    create route
+
+[33mcommit e573b00f59e94f2c061ea8e776eeb46754a5d8b7[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Kirti Rajvanshi <kirtirajvanshi9@gmail.com>
+Date:   Tue Feb 4 17:44:00 2025 +0530
+
+    Fixed login issue and updated styles
+
+[33mcommit 271b3ad4713608cfef7ea99f56d9ca74a6f1b7d2[m
+Author: Kirti Rajvanshi <kirtirajvanshi9@gmail.com>
+Date:   Tue Feb 4 17:42:19 2025 +0530
+
+    Removed node_modules from tracking
