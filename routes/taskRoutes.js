@@ -10,15 +10,9 @@ router.get('/test',auth, (req, res) => {
         user: req.user
     });
 });
-
-// CRUD tasks for authenticated users
-
-
 //create a task
-router.post('/', auth, async (req, res) => {
+router.post('/create', auth, async (req, res) => {
    try{
-    // description, completed from req.body
-    // owner : req.user._id
     const task = new Task({
         ...req.body,
         owner: req.user._id
